@@ -1,0 +1,76 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  padding: 250px 0 60px;
+}
+
+.error__title {
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 140px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.error__text {
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.error__button {
+  margin-top: 184px;
+  color: #4285f4;
+  text-align: center;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #4285f4;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.error__button:hover {
+  opacity: 0.3;
+}
+
+@media screen and (max-width: 440px) {
+
+  .error {
+    padding: 330px 0 60px;
+  }
+  .error__title {
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 10px;
+  }
+
+  .error__text {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .error__button {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 282px;
+  }
+}

@@ -1,0 +1,124 @@
+.technologies {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 100px 130px 110px;
+  background-color: rgba(39, 39, 39, 1);
+}
+
+.technologies__title {
+  margin: 95px auto 25px;
+  text-align: center;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: -2px;
+}
+
+.technologies__text {
+  max-width: 460px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.56px;
+}
+
+.technologies__cards {
+  margin: 0;
+  padding: 103px 10px 0 10px;
+  display: grid;
+  justify-content: center;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, 90px);
+  list-style-type: none;
+}
+
+.technologies__item {
+  padding: 20px 10px;
+  background-color: #303030;
+  color: #fff;
+  text-align: center;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.56px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .technologies {
+    padding: 110px 15px 106px;
+  }}
+
+@media screen and (max-width: 1000px) {
+  .technologies {
+    padding: 65px 50px 65px;
+    margin: 0 auto;
+  }
+
+  .technologies__title {
+    margin: 80px auto 25px;
+    max-width: 668px;
+  }
+
+  .technologies__text {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.48px;
+  }
+
+  .technologies__cards {
+    padding: 75px 10px 0;
+    grid-template-columns: repeat(auto-fit, 84px);
+  }
+}
+
+@media screen and (max-width: 500px) {
+.technologies {
+    padding: 65px 15px 65px;
+    margin: 0 auto;
+}
+}
+@media screen and (max-width: 320px) {
+  .technologies {
+    padding: 40px 18px 65px;
+  }
+
+  .technologies__title {
+    margin: 60px auto 24px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.2px;
+  }
+
+  .technologies__text {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.44px;
+  }
+  .technologies__cards {
+    padding: 46px 10px 0;
+  }
+
+  .technologies__item {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    padding: 21px 10px;
+  }
+}

@@ -1,0 +1,15 @@
+.page {
+  width: 100%;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Inter', 'Arial', sans-serif;
+  box-sizing: border-box;
+  height: 100vh;
+  color: #FFF;
+  background-color:rgba(32, 32, 32, 1);
+}
+
